@@ -10,11 +10,12 @@ public class App
 {
     public static void main( String[] args ) throws IOException
     {
-    	
+
     	BufferedReader tecla = new BufferedReader(new InputStreamReader(System.in));
     	
     	System.out.print("Ingrese su edad : ");
     	int edad = Integer.parseInt(tecla.readLine());
+
     	
     	if(edad>=18) {
     		System.out.println("La persona es mayor de edad");
